@@ -2,17 +2,17 @@
 
 **Heavy ChatGPT user for project design, implementation, debugging, verification, learning, and practical automation**
 
-I use ChatGPT continuously across multiple long-running personal projects, not only for isolated questions but for repeated, multi-step workflows spanning requirements, architecture, implementation, debugging, testing, and documentation.
+I use ChatGPT **almost every day** and have been using it for **roughly a year**, not only for isolated questions but across repeated, multi-step workflows spanning requirements, architecture, implementation, debugging, testing, learning, and documentation.
 
 I do not simply accept its output. My working pattern is: **ask, challenge, inspect, test, reject, refine, and repeat**.
 
-The projects below reflect my use of **ChatGPT as a conversational thinking and implementation partner**. This is separate from the use of the **OpenAI API inside some applications**.
+The projects below were developed **with ChatGPT as a conversational thinking, implementation, debugging, and verification partner**. Some applications also use the OpenAI API internally, but the project design and development process described here refers to my direct use of ChatGPT.
 
 ---
 
 ## How I Use ChatGPT
 
-I use ChatGPT extensively across the full lifecycle of personal projects:
+I use ChatGPT extensively across the full lifecycle of personal projects, and I use it on most days:
 
 - Clarifying vague ideas and converting them into concrete requirements
 - Comparing architecture and implementation options
