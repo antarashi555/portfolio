@@ -1,10 +1,30 @@
 # Hiroki Chikano (近野寛貴)
 
-**AI-assisted project design · workflow orchestration · verification · practical automation**
+**Heavy ChatGPT user for project design, implementation, debugging, verification, learning, and practical automation**
 
-I use AI agents as implementation partners while focusing on **requirements, architecture, task decomposition, review, testing, failure handling, and human control**.
+I use ChatGPT as a daily thinking and implementation partner across long, context-rich workflows. I rely on it for clarifying ideas, comparing approaches, breaking down large tasks, generating implementation candidates, reviewing output, debugging failures, and improving documentation.
 
-My strength is not conventional hand-written software development. I work by defining the outcome, constraining the implementation, checking evidence, testing failure modes, and iterating until the system behaves as intended.
+My goal is not to ask ChatGPT for a final answer and accept it. I use it as an iterative partner: **ask, challenge, inspect, test, reject, refine, and repeat**. I focus on requirements, architecture, task decomposition, verification, failure handling, and human control rather than presenting myself as a conventional hand-written software developer.
+
+---
+
+## How I Use ChatGPT
+
+I use ChatGPT extensively across the full lifecycle of personal projects:
+
+- Clarifying vague ideas and converting them into concrete requirements
+- Comparing architecture and implementation options
+- Breaking large tasks into bounded, reviewable steps
+- Generating implementation candidates
+- Reviewing code, configuration, and system behavior
+- Designing tests, edge cases, and failure scenarios
+- Investigating logs and debugging failures
+- Improving documentation and reproducibility
+- Challenging my own assumptions and revising plans
+- Working through long, context-rich conversations over multiple iterations
+- Deciding when AI output should not be trusted without independent verification
+
+I do not treat generated output as authoritative. I repeatedly test, review, reject, revise, and re-run suggestions until the result is supported by evidence.
 
 ---
 
@@ -30,6 +50,10 @@ The project separates planning, implementation, review, verification, publishing
 - Resource limits and timeouts
 - Fail-closed handling
 - Final merge remains a human decision
+
+**How ChatGPT was used**
+
+ChatGPT was used throughout the project to explore workflow architectures, refine safety boundaries, generate implementation candidates, review edge cases, interpret test failures and logs, propose additional verification cases, and improve documentation. Suggestions were not accepted automatically; they were tested, challenged, and revised through repeated iterations.
 
 **My role**
 
@@ -69,6 +93,10 @@ The following image uses source snippets taken from the private repository rathe
 - Automated Personal Team signing refresh
 - Validated bundle identity, entitlements, installation, launch, and data continuity
 - Kept device identifiers, profiles, certificates, logs, and credentials outside Git
+
+**How ChatGPT was used**
+
+ChatGPT was used to navigate the large upstream codebase, identify modification points, reason about build and signing constraints, generate and revise implementation candidates, investigate failures, and refine the reproducible overlay and signing workflow.
 
 **My role**
 
@@ -118,6 +146,10 @@ It reduces manual study management by recording answers, preserving learning his
 - Keeps the user in the loop before AI-generated evaluation becomes authoritative
 - Separates UI, application services, persistence, and AI-provider boundaries
 
+**How ChatGPT was used**
+
+ChatGPT was used to turn study-management ideas into requirements, compare data-flow and UI approaches, generate implementation candidates, review grading and recommendation logic, investigate bugs, and refine the application through repeated testing.
+
 **My role**
 
 I defined the product requirements, learning workflow, data model, and expected behavior, then used AI-assisted implementation and repeated testing to refine the application.
@@ -128,25 +160,28 @@ I defined the product requirements, learning workflow, data model, and expected 
 
 ---
 
-## How I Work With AI
+## My Working Method
 
 ```text
 Define the outcome
         ↓
+Clarify requirements with ChatGPT
+        ↓
 Break the task into bounded work
         ↓
-Use AI for implementation
+Generate implementation candidates
         ↓
 Inspect behavior and evidence
         ↓
 Test edge cases and failure modes
         ↓
-Revise constraints
+Challenge and revise the output
         ↓
 Repeat
 ```
 
 I am especially interested in AI evaluation, agent orchestration, human-in-the-loop systems, deterministic verification, failure-resistant automation, long-context workflows, and practical use of AI in unfamiliar technical domains.
+
 
 ---
 
