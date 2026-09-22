@@ -2,9 +2,11 @@
 
 **Heavy ChatGPT user for project design, implementation, debugging, verification, learning, and practical automation**
 
-I use ChatGPT as a daily thinking and implementation partner across long, context-rich workflows. I rely on it for clarifying ideas, comparing approaches, breaking down large tasks, generating implementation candidates, reviewing output, debugging failures, and improving documentation.
+I use ChatGPT continuously across multiple long-running personal projects, not only for isolated questions but for repeated, multi-step workflows spanning requirements, architecture, implementation, debugging, testing, and documentation.
 
-My goal is not to ask ChatGPT for a final answer and accept it. I use it as an iterative partner: **ask, challenge, inspect, test, reject, refine, and repeat**. I focus on requirements, architecture, task decomposition, verification, failure handling, and human control rather than presenting myself as a conventional hand-written software developer.
+I do not simply accept its output. My working pattern is: **ask, challenge, inspect, test, reject, refine, and repeat**.
+
+The projects below reflect my use of **ChatGPT as a conversational thinking and implementation partner**. This is separate from the use of the **OpenAI API inside some applications**.
 
 ---
 
@@ -53,7 +55,7 @@ The project separates planning, implementation, review, verification, publishing
 
 **How ChatGPT was used**
 
-ChatGPT was used throughout the project to explore workflow architectures, refine safety boundaries, generate implementation candidates, review edge cases, interpret test failures and logs, propose additional verification cases, and improve documentation. Suggestions were not accepted automatically; they were tested, challenged, and revised through repeated iterations.
+ChatGPT helped me compare workflow designs, identify unsafe assumptions, expand failure-mode checklists, interpret test failures, and turn useful suggestions into explicit constraints and automated verification rules. Suggestions were not accepted automatically; they were tested, challenged, and revised through repeated iterations.
 
 **My role**
 
@@ -96,7 +98,7 @@ The following image uses source snippets taken from the private repository rathe
 
 **How ChatGPT was used**
 
-ChatGPT was used to navigate the large upstream codebase, identify modification points, reason about build and signing constraints, generate and revise implementation candidates, investigate failures, and refine the reproducible overlay and signing workflow.
+ChatGPT helped me navigate the large upstream codebase, identify candidate modification points, reason about build and signing constraints, investigate failures, and refine the reproducible overlay and signing workflow. The useful suggestions were then checked against the actual repository, build behavior, and physical-device results.
 
 **My role**
 
@@ -148,7 +150,7 @@ It reduces manual study management by recording answers, preserving learning his
 
 **How ChatGPT was used**
 
-ChatGPT was used to turn study-management ideas into requirements, compare data-flow and UI approaches, generate implementation candidates, review grading and recommendation logic, investigate bugs, and refine the application through repeated testing.
+ChatGPT helped me turn study-management ideas into requirements, compare data-flow and UI approaches, review grading and recommendation logic, investigate bugs, and refine the application through repeated testing. I used the conversation to connect observed study problems to concrete product behavior rather than treating generated code as the end result.
 
 **My role**
 
@@ -185,11 +187,12 @@ I am especially interested in AI evaluation, agent orchestration, human-in-the-l
 
 ---
 
-## Technical Familiarity
+## Technical Context
 
-I have **AI-assisted working familiarity** with Python-based projects, Swift / iOS project structure, Streamlit, SQLite, Git / GitHub, GitHub Actions, OpenAI API, Docker-based verification, shell automation, and local LLM experimentation.
+My ChatGPT use is grounded in practical work with Python-based projects, Swift / iOS project structure, Streamlit, SQLite, Git / GitHub, GitHub Actions, Docker-based verification, shell automation, local LLM experimentation, and the OpenAI API.
 
-I can follow basic code structure, data flow, configuration, logs, tests, and database concepts. I do **not** present myself as a conventional software engineer who manually writes these systems from scratch.
+I use ChatGPT to understand unfamiliar systems, make bounded changes, investigate failures, and verify behavior rather than relying on unverified generated output.
+
 
 ---
 
