@@ -17,7 +17,7 @@ A reusable control plane for **AI-assisted software development with explicit sa
 The project separates planning, implementation, review, verification, publishing, and final human approval. The goal is to make AI-assisted development more reproducible and reduce the risk of unverified changes reaching a repository.
 
 <p align="center">
-  <img src="images/ai-team-core-architecture.jpg" alt="ai-team-core architecture" width="100%">
+  <img src="ai-team-core-architecture.jpg" alt="ai-team-core architecture" width="100%">
 </p>
 
 **Key design points**
@@ -48,7 +48,7 @@ A customized Brave iOS build with a **reproducible overlay workflow, Personal Te
 Rather than keeping a full Brave/Chromium checkout in Git, the project preserves only the modified overlay, reconstruction instructions, manifests, and signing automation. The build was validated on a physical iPhone during development; the current signed build has expired.
 
 <p align="center">
-  <img src="images/brave-architecture.jpg" alt="Brave iOS personal build architecture" width="100%">
+  <img src="brave-architecture.jpg" alt="Brave iOS personal build architecture" width="100%">
 </p>
 
 #### Implementation evidence
@@ -56,7 +56,7 @@ Rather than keeping a full Brave/Chromium checkout in Git, the project preserves
 The following image uses source snippets taken from the private repository rather than generated pseudocode.
 
 <p align="center">
-  <img src="images/brave-implementation-evidence.png" alt="Brave implementation evidence" width="100%">
+  <img src="brave-implementation-evidence.png" alt="Brave implementation evidence" width="100%">
 </p>
 
 **What the project demonstrates**
@@ -93,19 +93,19 @@ It reduces manual study management by recording answers, preserving learning his
 #### Practice
 
 <p align="center">
-  <img src="images/denken-practice.jpg" alt="Denken Study Manager practice screen" width="100%">
+  <img src="denken-practice.jpg" alt="Denken Study Manager practice screen" width="100%">
 </p>
 
 #### Learning history and mistake tracking
 
 <p align="center">
-  <img src="images/denken-learning-history.jpg" alt="Denken Study Manager learning history" width="100%">
+  <img src="denken-learning-history.jpg" alt="Denken Study Manager learning history" width="100%">
 </p>
 
 #### Next-learning recommendation
 
 <p align="center">
-  <img src="images/denken-next-learning.jpg" alt="Denken Study Manager next-learning recommendation" width="100%">
+  <img src="denken-next-learning.jpg" alt="Denken Study Manager next-learning recommendation" width="100%">
 </p>
 
 **Key design points**
